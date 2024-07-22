@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation-bar {
+    display: flex;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.kontakt{
+    margin-right: 20px;
+}
