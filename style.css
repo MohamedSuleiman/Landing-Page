@@ -34,7 +34,7 @@ a {
 
 .logo {
     margin-right: auto;
-    margin-left: 290px;
+    margin-left: 230px;
 }
 
 .logo img{
@@ -99,20 +99,22 @@ button {
     flex-wrap: wrap; 
     align-items: center;
     height: 100%;
+    gap: 30px;
 }
 
 .pics img{
-  width: 150px;
+  width: 200px;
   height: 200px;
   border-radius: 20px;
+  margin-bottom: 15px;
 }
 .subtext {
-    width: 260px;
+    width: 200px;
 }
 
-.quotes {
+.section-three {
     background-color: #E5E7EB;
-    height: 300px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,4 +125,43 @@ button {
     font-weight: lighter;
     color: #1f2937;
     width: 650px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.section-four {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: blue;
+    height: 120px;
+    width: 900px;
+    border-radius: 15px;
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-button {
+    width: 130px;
+    height: 40px;
+    border: white solid 1px;
+}
+
+.buy {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sign{
+    margin-top: 10px;
+    color: #d9d9d3;
+    font-size: 15px;
 }
